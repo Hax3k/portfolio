@@ -1,7 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     background-color: hsl(182, 100%, 54%);
-    color: #333;
+    color: #333; 
+    background-image: url('\Portfolio\imagens Portfolio\rodape.png'); /* Substitua com o caminho real para sua imagem */
+    background-size: cover; /* Cobrir todo o elemento */
+    background-position: center; /* Centralizar a imagem */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    margin: 0; /* Remover margens padrão do corpo */
+    font-family: Arial, sans-serif; 
 }
 
 header {
