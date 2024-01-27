@@ -1,20 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: hsl(182, 100%, 54%);
     color: #333; 
-    background-image: url('\Portfolio\imagens Portfolio\rodape.png'); /* Substitua com o caminho real para sua imagem */
-    background-size: cover; /* Cobrir todo o elemento */
+    background-image: url('imagens Portfolio/rodape.png');
+    background-size: cover; /* Cobrir a tela inteira */
     background-position: center; /* Centralizar a imagem */
-    background-repeat: no-repeat; /* Não repetir a imagem */
-    margin: 0; /* Remover margens padrão do corpo */
+    background-repeat: no-repeat; 
     font-family: Arial, sans-serif; 
+    background-color: #333;
+    
 }
 
 header {
-    background-color: #0066cc;
+    background-color:#333;
     padding: 20px;
-    text-align: center;
-    color: rgb(255, 0, 0);
+    text-align :left ;
+    color:rgb(255, 255, 255);
 }
 
 .container {
