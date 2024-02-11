@@ -1,25 +1,105 @@
+/* corpor do site é o body */
 body {
-    font-family: Arial, sans-serif;
-    color: #333; 
-    background-image: url('rodape.png');
-    background-size: cover; /* Cobrir a tela inteira */
-    background-position: center; /* Centralizar a imagem */
-    background-repeat: no-repeat; 
-    font-family: Arial, sans-serif; 
-    background-color: #333;
-    
-    
+    margin: 0;                  /*define o corpo do site limitando o espaçamento de margem pra 0*/
+    background-color: rgb(0, 0, 0); /*altera cor de fundo do corpo*/
+    overflow-x: hidden;
 }
 
 header {
-    background-color:#333;
-    padding: 20px;
-    text-align :left ;
-    color:rgb(255, 255, 255);
+    margin: 0;
+    position: fixed;
+    height: 100px;
+    top: 0;             /*alinha o topo do cabeçalho com o topo da janela do seu navegador*/ 
+    left: 0;            /* alinha borda esquerda do cabeçalho com a borda esquerda do navegador */
+    width: 100%;        /*Ocupa 100% da janela do navegador*/
+    background-color: black;
+    z-index: 1000;      /* valor alto para garantir que o cabeçalho esteja acima de outros elementos*/
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+a{
+    text-decoration: none;
+    color:aliceblue;
 }
+
+header h1{
+    margin: 30;
+    padding: 15px;
+    left: 50%;
+    color:rgb(255, 255, 255);
+    font-size: 27px;
+    font-family: 'Open Sans' , sans-serif;
+    
+}
+.banner {
+    margin: 0;
+    position: relative;
+    top: -50px;
+}
+#titulo_banner {
+    margin: 0;
+    top: 450px;
+    position: relative;
+    z-index: 900;
+    color: aliceblue;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 50px;
+    text-shadow: 0 0 5px #000000, /* Sombra vermelha */
+               0 0 10px #000000, /* Sombra vermelha */
+               0 0 10px #000000, /* Sombra vermelha */
+               0 0 10px #000000, /* Sombra vermelha */
+               0 0 10px #000000, /* Sombra vermelha */
+               0 0 10px #000000;
+
+}
+#subt_banner {
+    width: 40%;
+    margin: 0 auto;
+    color: aliceblue;
+    font-family: arial, sans-serif;
+    position: relative;
+    top: 700px;
+    text-align: center;
+    z-index: 900;
+    font-size: 45px;
+    text-shadow: 0 0 5px #000000, /* Sombra vermelha */
+               0 0 10px #000000, /* Sombra vermelha */
+               0 0 10px #000000, /* Sombra vermelha */
+               0 0 10px #000000, /* Sombra vermelha */
+               0 0 10px #000000, /* Sombra vermelha */
+               0 0 10px #000000; 
+}
+
+img {
+    z-index: 850;
+    top: -600px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    height: 80%;
+    width: 100%;
+}
+.exp {
+    position: relative;
+}
+#titulo_exp {
+    margin: 0;
+    position: relative;
+    margin-top: -18%;
+    left: 140px;
+    z-index: 1000;
+    font-family: arial, sans-serif;
+    font-size: 70px;
+    text-shadow: 0 0 2px #ffffff, /* Sombra vermelha */
+               0 0 2px #ffffff, /* Sombra vermelha */
+               0 0 2px #ffffff, /* Sombra vermelha */
+               0 0 5px #ffffff, /* Sombra vermelha */
+               0 0 5px #ffffff, /* Sombra vermelha */
+               0 0 5px #ffffff;
+}
+
+
+
+
+ 
+
